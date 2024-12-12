@@ -7,10 +7,10 @@ import "./index.css";
 const App = () => {
 
   const [fullName , setFullName] = useState({
-    firstName : " ",
-    lastName : " ",
-    email : " ",
-    phone : " ",
+    firstName : "",
+    lastName : "",
+    email : "",
+    phone : "",
 
   });
 
@@ -86,5 +86,6 @@ return(
 </>
 );
 }
+
 
 export default App;
